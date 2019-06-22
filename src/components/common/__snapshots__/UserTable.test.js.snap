@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTable Component renders an error message when a network error occurs 1`] = `
+<div>
+  A network error occured
+</div>
+`;
+
+exports[`UserTable Component renders an error message when a network error occurs 2`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`UserTable Component renders without crashing 1`] = `
+<table
+  className="ui celled table"
+>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Email
+      </th>
+      <th>
+        City
+      </th>
+      <th>
+        Company
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
